@@ -144,13 +144,13 @@
 						<div class="appointment__item">
 							<form class="appointment__form hwform" action="#">
 								<input type="text" id="name" placeholder="Name" autocomplete="off" name="name"
-									class="appointment__form-input">
+									class="appointment__form-input" required>
 							</form>
 						</div>
 						<div class="appointment__item">
 							<form action="#" class="appointment__form hwform">
 								<input type="email" id="mail" placeholder="Email" autocomplete="off" name="mail"
-									class="appointment__form-input">
+									class="appointment__form-input" required>
 							</form>
 						</div>
 						<div class="appointment__item">
@@ -168,9 +168,13 @@
 							</select>
 						</div>
 						<div class="appointment__item">
-							<textarea name="appointment-ta" class="appointment-ta"></textarea>
+							<textarea name="appointment-ta" class="appointment-ta"
+								placeholder="Tell us about your puppers include his/her name"></textarea>
 						</div>
 
+					</div>
+					<div class="appointment__button">
+						<button class="app__button" type="submit">Make an Appointment</button>
 					</div>
 
 				</div>

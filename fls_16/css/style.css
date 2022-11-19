@@ -371,6 +371,8 @@ body {
 	width: 100%;
 	padding: 15px;
 	resize: vertical;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
 }
 
 .appointment__select {
@@ -392,3 +394,29 @@ body {
 	color: rgb(255, 255, 255);
 	transition: all 0.3s ease 0s;
 }
+
+.appointment__button {
+	padding: 0 20px;
+	display: flex;
+	justify-content: flex-end
+}
+
+.app__button {
+	margin-top: 20px;
+	padding: 15px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 200%;
+	display: flex;
+	/* align-items: center; */
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 12px;
+	background-color: #e46666;
+	display: block;
+}
+
+
+/* ---------------------------------------------------- */
