@@ -365,3 +365,9 @@ body {
 	display: block;
 	width: 100%;
 }
+
+.appointment-ta {
+	width: 100%;
+	padding: 15px;
+	resize: vertical;
+}
