@@ -46,10 +46,9 @@ body {
 	height: 100%;
 }
 
-html {
-	/* по умолчанию */
-	/* font-size: 16px;  */
-}
+/* html {
+
+} */
 
 body {
 	line-height: 1;
@@ -81,9 +80,9 @@ body {
 	margin: 0px 0px 100px 0px;
 }
 
-.form {}
+/* .form {}
 
-.form__line {}
+.form__line {} */
 
 .form__line:not(:last-child) {
 	margin: 0px 0px 20px 0px;
@@ -184,7 +183,7 @@ body {
 	border-radius: 5px;
 }
 
-.radiobuttons {}
+/* .radiobuttons {} */
 
 .radiobuttons__item {
 	position: relative;
@@ -432,7 +431,7 @@ body {
 	padding: 17px 32px;
 }
 
-.summary__header {}
+/* .summary__header {} */
 
 .summary__title {
 	font-weight: 600;
@@ -457,7 +456,7 @@ body {
 	margin: 12px auto;
 }
 
-.shipping__forms {}
+/* .shipping__forms {} */
 
 .shipping__label {
 	display: block;
