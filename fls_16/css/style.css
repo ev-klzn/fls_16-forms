@@ -490,3 +490,11 @@ body {
 .shipping__span {
 	padding-left: 5px;
 }
+
+.discount {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+	padding: 25px 0 5px 0;
+}
