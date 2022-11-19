@@ -498,3 +498,22 @@ body {
 	color: #000000;
 	padding: 25px 0 5px 0;
 }
+
+.shipping__button {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	display: block;
+	color: #0156FF;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 15px;
+	border: 1px solid #0156FF;
+	border-radius: 25px;
+}
+
+.shipping__button:hover {
+	color: #FFFFFF;
+	background-color: #0156FF;
+	transition: all 0.3s ease 0s;
+}
