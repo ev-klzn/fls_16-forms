@@ -335,7 +335,6 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
-	/* display: flex; */
 	align-items: center;
 	letter-spacing: 0.15px;
 	color: hsl(0, 0%, 100%);
@@ -382,4 +381,14 @@ body {
 	background: #5D62B5;
 	border: 2px solid #FFFFFF;
 	border-radius: 10px;
+}
+
+.appointment__form-input:focus::placeholder {
+	transform: translate(-100%, 0px);
+	opacity: 0;
+}
+
+.appointment__form-input::placeholder {
+	color: rgb(255, 255, 255);
+	transition: all 0.3s ease 0s;
 }
