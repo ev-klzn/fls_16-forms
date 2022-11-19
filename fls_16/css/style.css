@@ -351,7 +351,9 @@ body {
 	display: block;
 }
 
-.hwform {}
+.hwform {
+	color: #FFFFFF;
+}
 
 .appointment__form-input {
 	text-align: center;
@@ -370,4 +372,14 @@ body {
 	width: 100%;
 	padding: 15px;
 	resize: vertical;
+}
+
+.appointment__select {
+	width: 100%;
+	height: 40px;
+	padding: 0px 10px;
+	color: #FFFFFF;
+	background: #5D62B5;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
 }
