@@ -193,14 +193,36 @@
 						Enter your destination to get a shipping estimate.
 					</div>
 				</div>
-				<form action="#" class="shipping__forms">
-					<label for="shipping_select" class="shipping__label">Country</label>
-					<select name="shipping_select" class="shipping__form">
-						<option value="1" selected="selected">Australia</option>
-						<option value="2">Ukraine</option>
-						<option value="3">USA</option>
-						<option value="4">France</option>
-					</select>
+				<form action="#">
+					<div class="shipping__forms">
+						<label for="shipping_select" class="shipping__label">Country</label>
+						<select name="shipping_select" class="shipping__form">
+							<option value="1" selected="selected">Australia</option>
+							<option value="2">Ukraine</option>
+							<option value="3">USA</option>
+							<option value="4">France</option>
+						</select>
+					</div>
+					<!--  -->
+					<div class="shipping__forms">
+						<label for="state" class="shipping__label">State/Province</label>
+						<input id="state" placeholder="" type="text" name="state" class="shipping__form">
+					</div>
+					<div class="shipping__forms">
+						<label for="zip" class="shipping__label">Zip/Postal Code</label>
+						<input id="zip" placeholder="" type="number" name="zip" class="shipping__form">
+					</div>
+					<div class="shipping__forms">
+						<label for="shipping_select" class="shipping__label">Standard Rate</label>
+						<input type="checkbox" name="staff" id="staff" class="shipping__checkbox">
+						<span class="shipping__span">Price may vary depending on the item/destination. Shop Staff will
+							contact you.$21.00</span>
+					</div>
+					<div class="shipping__forms">
+						<label for="shipping_select" class="shipping__label">Pickup from store</label>
+						<input type="checkbox" name="staff" id="staff" class="shipping__checkbox">
+						<span class="shipping__span">1234 Street Adress City Address, 1234 $0.00</span>
+					</div>
 				</form>
 			</div>
 		</div>
