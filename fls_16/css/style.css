@@ -13,16 +13,20 @@
 	border: 0;
 	box-sizing: border-box;
 }
+
 li {
 	list-style: none;
 }
+
 a,
 a:visited {
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -32,29 +36,35 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
+
 img {
 	vertical-align: top;
 }
+
 html,
 body {
 	height: 100%;
 }
+
 html {
 	/* по умолчанию */
 	/* font-size: 16px;  */
 }
+
 body {
 	line-height: 1;
 	color: #fff;
 	background-color: #333;
 	font-family: "Roboto";
 }
+
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 }
+
 /* ------------------------------ */
 .main {
 	flex-grow: 1;
@@ -70,26 +80,31 @@ body {
 .main__form {
 	margin: 0px 0px 100px 0px;
 }
-.form {
-}
-.form__line {
-}
+
+.form {}
+
+.form__line {}
+
 .form__line:not(:last-child) {
 	margin: 0px 0px 20px 0px;
 }
+
 .form__label {
 	display: block;
 	margin: 0px 0px 10px 0px;
 }
+
 .form__input {
 	height: 30px;
 	width: 100%;
 	padding: 0px 10px;
 }
+
 .form__input:focus::placeholder {
 	transform: translate(-100%, 0px);
 	opacity: 0;
 }
+
 .form__input::placeholder {
 	color: red;
 	transition: all 0.3s ease 0s;
@@ -106,6 +121,7 @@ body {
 	padding: 10px 15px;
 	cursor: pointer;
 }
+
 .form__select {
 	width: 100%;
 	height: 30px;
@@ -115,6 +131,7 @@ body {
 .file {
 	position: relative;
 }
+
 .file__input {
 	position: absolute;
 	top: 0;
@@ -122,6 +139,7 @@ body {
 	opacity: 0;
 	font-size: 0;
 }
+
 .file__label {
 	background-color: green;
 	border-radius: 20px;
@@ -132,6 +150,7 @@ body {
 .checkbox {
 	position: relative;
 }
+
 .checkbox__input {
 	cursor: pointer;
 	position: absolute;
@@ -139,18 +158,22 @@ body {
 	left: 0;
 	opacity: 0;
 }
-.checkbox__input:focus + .checkbox__label {
+
+.checkbox__input:focus+.checkbox__label {
 	outline: 1px solid #fff;
 }
-.checkbox__input:checked + .checkbox__label::before {
+
+.checkbox__input:checked+.checkbox__label::before {
 	background-color: green;
 }
+
 .checkbox__label {
 	display: inline-flex;
 	column-gap: 10px;
 	align-items: center;
 	cursor: pointer;
 }
+
 .checkbox__label::before {
 	cursor: pointer;
 	align-self: flex-start;
@@ -161,14 +184,16 @@ body {
 	border-radius: 5px;
 }
 
-.radiobuttons {
-}
+.radiobuttons {}
+
 .radiobuttons__item {
 	position: relative;
 }
+
 .radiobuttons__item:not(:last-child) {
 	margin: 0px 0px 10px 0px;
 }
+
 .radiobuttons__input {
 	cursor: pointer;
 	position: absolute;
@@ -176,10 +201,12 @@ body {
 	left: 0;
 	opacity: 0;
 }
-.radiobuttons__input:focus + .radiobuttons__label::before {
+
+.radiobuttons__input:focus+.radiobuttons__label::before {
 	box-shadow: 0 0 10px rgb(200, 255, 0);
 }
-.radiobuttons__input:checked + .radiobuttons__label::after {
+
+.radiobuttons__input:checked+.radiobuttons__label::after {
 	transform: scale(1);
 }
 
@@ -190,6 +217,7 @@ body {
 	cursor: pointer;
 	position: relative;
 }
+
 .radiobuttons__label::before {
 	cursor: pointer;
 	align-self: flex-start;
@@ -199,6 +227,7 @@ body {
 	background-color: #fff;
 	border-radius: 50%;
 }
+
 .radiobuttons__label::after {
 	width: 10px;
 	content: "";
@@ -211,9 +240,11 @@ body {
 	left: 5px;
 	transform: scale(0);
 }
+
 .switcher {
 	position: relative;
 }
+
 .switcher__input {
 	cursor: pointer;
 	position: absolute;
@@ -221,16 +252,20 @@ body {
 	left: 0;
 	opacity: 0;
 }
-.switcher__input:focus + .switcher__label {
+
+.switcher__input:focus+.switcher__label {
 	outline: 1px solid green;
 }
-.switcher__input:checked + .switcher__label {
+
+.switcher__input:checked+.switcher__label {
 	background-color: green;
 }
-.switcher__input:checked + .switcher__label::before {
+
+.switcher__input:checked+.switcher__label::before {
 	background-color: green;
 	left: 25px;
 }
+
 .switcher__label {
 	transition: background-color 0.3s ease 0s;
 	position: relative;
@@ -241,6 +276,7 @@ body {
 	height: 20px;
 	border-radius: 10px;
 }
+
 .switcher__label::before {
 	transition: transform, left 0.3s ease 0s;
 	cursor: pointer;
@@ -254,4 +290,78 @@ body {
 	background-color: #fff;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 1.3);
 	border-radius: 50%;
+}
+
+/* Home work---------------------------------------- */
+
+.appointment {
+	margin: 20px auto;
+}
+
+.hw {
+	background-color: rgb(255, 255, 255);
+	color: white;
+}
+
+.appointment {
+	max-width: 535px;
+	background-color: #5D62B5;
+	border-radius: 40px;
+}
+
+.appointment__body {
+	padding: 50px;
+	padding-top: 0;
+}
+
+.appointment__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	text-align: center;
+	padding: 76px 0px;
+}
+
+.appointment__items {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.appointment__item {
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	/* display: flex; */
+	align-items: center;
+	letter-spacing: 0.15px;
+	color: hsl(0, 0%, 100%);
+	background: #5D62B5;
+	border-radius: 40px;
+	padding: 10px 20px;
+	border: 1;
+	flex: 1 1 50%;
+}
+
+.appointment__form {
+	color: hsl(0, 0%, 100%);
+	display: block;
+}
+
+.hwform {}
+
+.appointment__form-input {
+	text-align: center;
+	padding: 10px;
+	color: #FFFFFF;
+	background: #5D62B5;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 10px 0px;
+	text-align: center;
+	display: block;
+	width: 100%;
 }
